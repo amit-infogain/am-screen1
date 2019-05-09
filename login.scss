@@ -1,0 +1,81 @@
+$bg_light : #f8f8f0;
+
+@mixin flex_all_center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+h1, p {
+  font-family: Lato;
+}
+
+body{
+  background-color: $bg_light;
+}
+
+#sm_login{
+  @include flex_all_center();
+  height: 100vh;
+
+    .wrapper{
+      max-width: calc(100% - 400px);
+      width: 100%;
+      @include flex_all_center();
+
+      &>div{
+        flex: 0 0 50%;
+      }
+      .logo{
+        width: 290px;
+        height: 51px;
+        font-size: 2em;
+        color: #bfbfbf;
+        background-color: #efefef;
+        @include flex_all_center();
+      }
+      form{
+        max-width: 400px;
+        input{
+          height: 40px;
+        }
+        .defButton{
+          width: 400px;
+          height: 40px;
+          border-radius: 6px;
+          background-color: #4a4444;
+          color: #fff;
+          text-transform: none;
+          font-size: 0.9em; 
+          font-weight: 300;   
+        }
+        .custom_inp {
+          margin: 15px 0;
+          border-radius: 6px;
+          border: solid 1px rgba(54, 48, 48, 0.2);
+          background-color: #ffffff;
+            &>div{
+              &:after{
+                display:none;
+              }
+              &:before{
+                display: none;
+              }
+              input{
+                padding-left: 20px;
+              }
+            }
+        }
+      }
+    }
+
+
+
+
+
+
+    
+
+}
+

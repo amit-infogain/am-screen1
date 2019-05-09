@@ -1,57 +1,44 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import classNames from 'classnames';
-import { withStyles } from '@material-ui/core/styles';
-import MenuItem from '@material-ui/core/MenuItem';
 import TextField from '@material-ui/core/TextField';
-
-const styles = theme => ({
-  container: {
-    display: 'flex',
-    flexWrap: 'wrap',
-  },
-  textField: {
-    marginLeft: theme.spacing.unit,
-    marginRight: theme.spacing.unit,
-    width: 200,
-  },
-  dense: {
-    marginTop: 19,
-  },
-  menu: {
-    width: 200,
-  },
-});
+import './login.scss';
+import Button from '@material-ui/core/Button';
 
 
 
 class TextFields extends React.Component {
 
-
-
-
   render() {
-    const { classes } = this.props;
 
     return (
 
       <div id="sm_login">
-        <div class="wrapper">
-          <div class="left_half">
-            <div class="inner_wrap">
-              <div class="logo">Logo</div>
-              <form className={classes.container} noValidate autoComplete="off">
+        <div className="wrapper">
+          <div className="left_half">
+            <div className="inner_wrap">
+              <div className="logo">Logo</div>
+              <form noValidate autoComplete="off">
                 <TextField
                   id="standard-name"
-                  label="Name"
-                  className={classes.textField}
+                  placeholder="ID"
                   margin="normal"
+                  fullWidth
+                  className="custom_inp"
                 />
+                <TextField
+                  id="standard-name"
+                  placeholder="Password"
+                  margin="normal"
+                  fullWidth
+                  className="custom_inp"
+                />
+                <Button variant="contained" className="defButton"  fullWidth >
+                  Sign In
+                </Button>
               </form>
             </div>
           </div>
-          <div class="right_half">
-            <div class="inner_wrap">
+          <div className="right_half">
+            <div className="inner_wrap">
               <img src="./img/illust.svg" alt="" />
             </div>
           </div>
@@ -61,8 +48,6 @@ class TextFields extends React.Component {
   }
 }
 
-TextFields.propTypes = {
-  classes: PropTypes.object.isRequired,
-};
 
-export default withStyles(styles)(TextFields);
+
+export default (TextFields);
