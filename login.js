@@ -6,7 +6,7 @@ import Checkbox from '@material-ui/core/Checkbox';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
 
 
-class TextFields extends React.Component {
+class Login extends React.Component {
 
   render() {
 
@@ -66,4 +66,4 @@ class TextFields extends React.Component {
 
 
 
-export default (TextFields);
+export default (Login);
