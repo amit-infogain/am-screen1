@@ -6,6 +6,9 @@ $bg_light : #f8f8f0;
     justify-content: center;
 }
 
+html, body, #root{
+  height: 100%;
+}
 
 h1, p {
   font-family: Lato;
@@ -16,11 +19,10 @@ body{
 }
 
 #sm_login{
+  height: 100%;
   @include flex_all_center();
-  height: 100vh;
 
     .wrapper{
-      width: 80%;
       @include flex_all_center();
 
       &>div{
