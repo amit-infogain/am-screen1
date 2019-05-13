@@ -1,0 +1,129 @@
+// ============== GLOBAL VARIABLES  ==========
+$bg_light : #f8f8f0;
+$color1 : #4a4444;
+
+// ================ MIXINS ======================
+@mixin flex_all_center{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+@mixin btn_primary {
+          height: 40px;
+          background-color: $color1;
+          color: #fff;
+          text-transform: none;
+          font-size: 0.9em; 
+          font-weight: normal;
+            &:hover{
+                background-color: #858180;
+            }
+          }
+
+
+// ============== LOGIN PAGE ====================
+#sm_home_first_page{
+  height: 100%;
+  @include flex_all_center();
+
+    .wrapper{
+          align-items: center;
+          width: 100%;
+          height: 100%;
+          justify-content: center;
+       @media (max-width: 1200px){
+         width: 80%;
+        }  
+
+        .sidebar{
+          width: 80px;
+          height: 100%;
+          background-color: #39372d;
+          position: fixed;
+          left: 0;
+          top: 0;
+          z-index: 1;
+          padding: 20px 0;
+          display: flex;
+          justify-content: center;
+
+          .avatarBottom{
+            position: fixed;  
+            bottom: 20px; 
+            width: 36px;
+            height: 36px;         
+          }
+
+        }
+
+        .main{
+              display: flex;
+              align-items: center;
+              margin-left: 80px;
+
+          &>div{
+            -webkit-box-flex: 1;
+                -ms-flex: 1;
+                    flex: 1;
+          }
+
+          .left_col{
+            .inner_wrap{
+                max-width: 400px;
+                h2{
+                  margin: 0;
+                  font-size: 3.6rem;
+                  color: #363030;
+                  line-height: 57px;
+                }
+                p{
+                  margin: 25px 0;
+                  font-size: 1.14rem;
+                  line-height: 25px;
+                }
+                ul{
+                  font-size: 1rem;
+                  line-height: 24px;
+                  color: #858180;
+                  padding-left: 15px;
+                }
+            }
+                .cst_button1 {
+                  font-weight: normal;
+                  text-transform: none;
+                  width: 100%;
+                  max-width: 200px;
+                  background-color: #fff;
+                border: solid 1px rgba(54, 48, 48, 0.5);
+                box-shadow: none;
+                color: #4a4444;
+                padding: 8px 8px;
+                margin-top: 15px;
+                  .MuiButton-label-2{
+                    display: flex;
+                    flex-direction: row-reverse;    
+                  }
+
+            }
+          }
+        }
+
+      .inner_wrap{
+               @media (max-width: 1200px){
+                margin-right: 50px;
+               }
+      }
+
+    }
+
+
+
+    
+
+}
