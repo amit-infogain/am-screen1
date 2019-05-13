@@ -33,17 +33,12 @@ $color1 : #4a4444;
   height: 100%;
   @include flex_all_center();
 
-    .wrapper{
+    &>.row{
       align-items: center;
        @media (max-width: 1200px){
          width: 80%;
         }
-      &>div{
-        -webkit-box-flex: 1;
-            -ms-flex: 1;
-                flex: 1;
-      }
-      .left_half{
+      .left{
         .inner_wrap{
             max-width: 400px;
         }

@@ -6,5 +6,5 @@ import HomeFirst from './home_first'
 import WSView from './ws_view';
 import './style.scss';
 
-ReactDOM.render(<WSView />, document.querySelector('#root'));
+ReactDOM.render(<HomeFirst />, document.querySelector('#root'));
     

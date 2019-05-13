@@ -14,7 +14,7 @@ class HomeFirst extends React.Component {
     return (
 
        <div id="sm_home_first_page" className="container">
-        <div className="wrapper row">
+        <div className="row">
 
           <div class="sidebar">
             <HomeIcon className="iconStyle1" />
@@ -22,7 +22,7 @@ class HomeFirst extends React.Component {
           </div>
 
         <div class="main">
-          <div className="left_col flex">
+          <div className="col left">
             <div className="inner_wrap">
                 <h2>Welcome to Your Workspace! </h2>
                 <p> All the members in workspace can use 
@@ -40,7 +40,7 @@ a variety of features to collaborate tightly. </p>
             </div>
           </div>
 
-          <div className="right_col flex">
+          <div className="col right">
             <div className="inner_wrap">
               <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Johan_Christian_Dahl_-_Dresden_by_Moonlight_-_Google_Art_Project.jpg/640px-Johan_Christian_Dahl_-_Dresden_by_Moonlight_-_Google_Art_Project.jpg" className="img-responsive" alt="" />
             </div>
