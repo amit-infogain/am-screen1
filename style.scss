@@ -44,6 +44,13 @@ body{
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
 }
+.col{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
 h1, p {
   font-family: Lato;
 }
