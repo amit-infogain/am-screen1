@@ -1,3 +1,30 @@
+// ============== GLOBAL VARIABLES  ==========
+$bg_light : #f8f8f0;
+$color1 : #4a4444;
+
+// ================ MIXINS ======================
+@mixin flex_all_center{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+@mixin btn_primary {
+          height: 40px;
+          background-color: $color1;
+          color: #fff;
+          text-transform: none;
+          font-size: 0.9em; 
+          font-weight: normal;
+            &:hover{
+                background-color: #858180;
+            }
+          }
 
 
 // ============== LOGIN PAGE ====================
