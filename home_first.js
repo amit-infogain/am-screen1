@@ -4,6 +4,7 @@ import Button from '@material-ui/core/Button';
 import AddIcon from '@material-ui/icons/Add';
 import HomeIcon from '@material-ui/icons/Home';
 import Avatar from '@material-ui/core/Avatar';
+import './home_first.scss';
 
 
 class HomeFirst extends React.Component {
