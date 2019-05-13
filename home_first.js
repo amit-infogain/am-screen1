@@ -1,9 +1,9 @@
-import React from 'react';
-import TextField from '@material-ui/core/TextField';
-import './home_first.scss';
+import React, { Component } from 'react';
+import { render } from 'react-dom';
 import Button from '@material-ui/core/Button';
-import Checkbox from '@material-ui/core/Checkbox';
-import FormControlLabel from '@material-ui/core/FormControlLabel';
+import AddIcon from '@material-ui/icons/Add';
+import HomeIcon from '@material-ui/icons/Home';
+import Avatar from '@material-ui/core/Avatar';
 
 
 class HomeFirst extends React.Component {
@@ -55,4 +55,4 @@ a variety of features to collaborate tightly. </p>
 
 
 
-export default (Login);
+export default (HomeFirst);
