@@ -27,8 +27,8 @@ $color1 : #4a4444;
           }
 
 
-// ============== LOGIN PAGE ====================
-#sm_home_first_page{
+// ============== Home First Page ====================
+#sm_homefirstpage{
   height: 100%;
   @include flex_all_center();
 
@@ -99,7 +99,7 @@ $color1 : #4a4444;
                 color: #4a4444;
                 padding: 8px 8px;
                 margin-top: 15px;
-                  .MuiButton-label-2{
+                  &>span{
                     display: flex;
                     flex-direction: row-reverse;    
                   }

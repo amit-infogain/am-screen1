@@ -13,15 +13,15 @@ class WSView extends React.Component {
 
     return (
 
-       <div id="sm_home_first_page" className="container">
-        <div className="wrapper row">
+       <div id="sm_wsviewpage" className="container">
+        <div className="row">
 
-          <div className="sidebar">
+          <div class="sidebar">
             <HomeIcon className="iconStyle1" />
             <Avatar alt="Remy Sharp" src="https://cdn1.iconfinder.com/data/icons/user-pictures/101/malecostume-512.png" className="avatarBottom" />
           </div>
 
-        <div className="main">
+        <div class="main">
           <div className="col left">
             <div className="inner_wrap">
                 <h2>Welcome to Your Workspace! </h2>

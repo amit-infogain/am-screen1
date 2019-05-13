@@ -13,7 +13,7 @@ class HomeFirst extends React.Component {
 
     return (
 
-       <div id="sm_home_first_page" className="container">
+       <div id="sm_homefirstpage" className="container">
         <div className="row">
 
           <div class="sidebar">
