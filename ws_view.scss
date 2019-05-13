@@ -64,48 +64,29 @@ $color1 : #4a4444;
 
         .main{
               display: flex;
-              align-items: center;
               margin-left: 80px;
+              width: 100%;
+              height: 100%;
 
           .left{
-            .inner_wrap{
-                max-width: 400px;
-                h2{
-                  margin: 0;
-                  font-size: 3.6rem;
-                  color: #363030;
-                  line-height: 57px;
-                }
-                p{
-                  margin: 25px 0;
-                  font-size: 1.14rem;
-                  line-height: 25px;
-                }
-                ul{
-                  font-size: 1rem;
-                  line-height: 24px;
-                  color: #858180;
-                  padding-left: 15px;
-                }
-            }
-                .cst_button1 {
-                  font-weight: normal;
-                  text-transform: none;
-                  width: 100%;
-                  max-width: 200px;
-                  background-color: #fff;
-                border: solid 1px rgba(54, 48, 48, 0.5);
-                box-shadow: none;
-                color: #4a4444;
-                padding: 8px 8px;
-                margin-top: 15px;
-                  &>span{
-                    display: flex;
-                    flex-direction: row-reverse;    
-                  }
+              border-right: 1px solid #e8e7e6;    
+              flex-basis: 420px !important;
+              flex-grow: 0;
+              background-color: #fdfdfb;
+                .header{
+                      padding: 0 28px;
+                      height: 68px;
+                      display: flex;
+                      align-items: center;
+                      border-bottom: 1px solid #e8e7e6;    
 
+                }
+
+              }
+
+            .right{
+              background-color: #f8f8f0;
             }
-          }
         }
 
       .inner_wrap{

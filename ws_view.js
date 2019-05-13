@@ -5,6 +5,12 @@ import AddIcon from '@material-ui/icons/Add';
 import HomeIcon from '@material-ui/icons/Home';
 import Avatar from '@material-ui/core/Avatar';
 import './ws_view.scss';
+import List from '@material-ui/core/List';
+import ListItem from '@material-ui/core/ListItem';
+import ListItemText from '@material-ui/core/ListItemText';
+import ListItemAvatar from '@material-ui/core/ListItemAvatar';
+import Avatar from '@material-ui/core/Avatar';
+import Typography from '@material-ui/core/Typography';
 
 
 class WSView extends React.Component {
@@ -13,7 +19,7 @@ class WSView extends React.Component {
 
     return (
 
-       <div id="sm_wsviewpage" className="container">
+      <div id="sm_wsviewpage" className="container">
         <div className="row">
 
           <div class="sidebar">
@@ -21,30 +27,65 @@ class WSView extends React.Component {
             <Avatar alt="Remy Sharp" src="https://cdn1.iconfinder.com/data/icons/user-pictures/101/malecostume-512.png" className="avatarBottom" />
           </div>
 
-        <div class="main">
-          <div className="col left">
-            <div className="inner_wrap">
-                <h2>Welcome to Your Workspace! </h2>
-                <p> All the members in workspace can use 
-a variety of features to collaborate tightly. </p>
-                <ul>
-                  <li>Multiple channels in one workspace</li>
-                  <li>Reply to a message</li>
-                  <li>Catch up important information on the right area</li>
-                  <li>Understand history with longer storage period</li>
-                </ul>
-                  <Button variant="contained" className="cst_button1" size="large" >
-      Create Workspace
-                  <AddIcon />
-                  </Button>
+          <div class="main">
+            <div className="col left">
+              <div class="header">
+                <h2>Mentions Me 3</h2>
+              </div>
+              <div class="list">
+                <List >
+                  <ListItem alignItems="flex-start">
+                    <ListItemAvatar>
+                      <Avatar alt="Remy Sharp" src="https://cdn1.iconfinder.com/data/icons/user-pictures/101/malecostume-512.png" />
+                    </ListItemAvatar>
+                    <ListItemText
+                      primary="Mulien Joe"
+                      secondary={
+                        <React.Fragment>
+                          {"@Karen Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard."}
+                        </React.Fragment>
+                      }
+                    />
+                  </ListItem>
+                  <ListItem alignItems="flex-start">
+                    <ListItemAvatar>
+                      <Avatar alt="Remy Sharp" src="https://cdn1.iconfinder.com/data/icons/user-pictures/101/malecostume-512.png" />
+                    </ListItemAvatar>
+                    <ListItemText
+                      primary="Summer BBQ"
+                      secondary={
+                        <React.Fragment>
+                          <Typography component="span" color="textPrimary">
+                            to Scott, Alex, Jennifer
+              </Typography>
+                          {" — Wish I could come, but I'm out of town this…"}
+                        </React.Fragment>
+                      }
+                    />
+                  </ListItem>
+                  <ListItem alignItems="flex-start">
+                    <ListItemAvatar>
+                      <Avatar alt="Remy Sharp" src="https://cdn1.iconfinder.com/data/icons/user-pictures/101/malecostume-512.png" />
+                    </ListItemAvatar>
+                    <ListItemText
+                      primary="Oui Oui"
+                      secondary={
+                        <React.Fragment>
+                          <Typography component="span" color="textPrimary">
+                            Sandra Adams
+              </Typography>
+                          {' — Do you have Paris recommendations? Have you ever…'}
+                        </React.Fragment>
+                      }
+                    />
+                  </ListItem>
+                </List>
+              </div>
             </div>
-          </div>
 
-          <div className="col right">
-            <div className="inner_wrap">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Johan_Christian_Dahl_-_Dresden_by_Moonlight_-_Google_Art_Project.jpg/640px-Johan_Christian_Dahl_-_Dresden_by_Moonlight_-_Google_Art_Project.jpg" className="img-responsive" alt="" />
+            <div className="col right">
+
             </div>
-          </div>
           </div>
 
         </div>
