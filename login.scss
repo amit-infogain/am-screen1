@@ -27,43 +27,6 @@ $color1 : #4a4444;
           }
           }
 
-// ============== BASE CLASSES =================
-html{
-  font-size: 14px;
-}
-html, body, #root{
-  height: 100%;
-}
-body{
-  margin: 0;
-  background-color: $bg_light;
-}
-.flex{
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-}
-h1, p {
-  font-family: Lato;
-}
-.img-responsive{
-  width: 100%;
-  height: auto;
-}
-.container {
-    width: 100%;
-    margin-right: auto;
-    margin-left: auto;
-}
-.row {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-}
 
 // ============== LOGIN PAGE ====================
 #sm_login{
