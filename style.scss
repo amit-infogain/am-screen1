@@ -67,3 +67,6 @@ h1, p {
 .iconStyle1{
   color: #b5b3b3;
 }
+*, ::after, ::before {
+    box-sizing: border-box;
+}
