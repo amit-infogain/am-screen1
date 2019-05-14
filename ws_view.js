@@ -31,8 +31,8 @@ class WSView extends React.Component {
               <div class="header">
                 <h2>Mentions Me 3</h2>
               </div>
-               <List >
-                  <ListItem alignItems="flex-start">
+               <List className="mention_list">
+                  <ListItem alignItems="flex-start" divider="true">
                     <ListItemAvatar>
                       <Avatar alt="Remy Sharp" src="https://cdn1.iconfinder.com/data/icons/user-pictures/101/malecostume-512.png" />
                     </ListItemAvatar>
@@ -41,11 +41,12 @@ class WSView extends React.Component {
                       secondary={
                         <React.Fragment>
                           {"@Karen Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard."}
+                          <p className="end">PM+Designer | 팀즈PJT</p>
                         </React.Fragment>
                       }
                     />
                   </ListItem>
-                  <ListItem alignItems="flex-start">
+                  <ListItem alignItems="flex-start" divider="true">
                     <ListItemAvatar>
                       <Avatar alt="Remy Sharp" src="https://cdn1.iconfinder.com/data/icons/user-pictures/101/malecostume-512.png" />
                     </ListItemAvatar>
@@ -61,7 +62,7 @@ class WSView extends React.Component {
                       }
                     />
                   </ListItem>
-                  <ListItem alignItems="flex-start">
+                  <ListItem alignItems="flex-start" divider="true">
                     <ListItemAvatar>
                       <Avatar alt="Remy Sharp" src="https://cdn1.iconfinder.com/data/icons/user-pictures/101/malecostume-512.png" />
                     </ListItemAvatar>

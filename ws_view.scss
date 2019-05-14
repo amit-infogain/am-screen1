@@ -30,25 +30,17 @@ $color1 : #4a4444;
 // ============== WSView PAGE ====================
 #sm_wsviewpage{
   height: 100%;
-  @include flex_all_center();
 
     &>.row{
-          align-items: center;
           width: 100%;
           height: 100%;
-          justify-content: center;
        @media (max-width: 1200px){
          width: 80%;
         }  
 
         .sidebar{
           width: 80px;
-          height: 100%;
           background-color: #39372d;
-          position: fixed;
-          left: 0;
-          top: 0;
-          z-index: 1;
           padding: 20px 0;
           display: flex;
           justify-content: center;
@@ -64,9 +56,7 @@ $color1 : #4a4444;
 
         .main{
               display: flex;
-              margin-left: 80px;
-              width: 100%;
-              height: 100%;
+              flex: 1;
 
           .left{
               border-right: 1px solid #e8e7e6;    
@@ -80,6 +70,15 @@ $color1 : #4a4444;
                       align-items: center;
                       border-bottom: 1px solid #e8e7e6;    
 
+                }
+                .mention_list{
+                  .end{  
+                    margin: 0;    
+                    text-align: right;
+                  }
+                  li{
+                    border-color: #e8e7e6;
+                  }
                 }
 
               }
