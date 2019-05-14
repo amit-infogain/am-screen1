@@ -5,9 +5,12 @@ import AddIcon from '@material-ui/icons/Add';
 import HomeIcon from '@material-ui/icons/Home';
 import SettingsIcon from '@material-ui/icons/Settings';
 import ListIcon from '@material-ui/icons/List';
-
+import StarIcon from '@material-ui/icons/Star';
+import Icon from '@material-ui/core/Icon';
+import Badge from '@material-ui/core/Badge';
 import Avatar from '@material-ui/core/Avatar';
 import './ws_view.scss';
+import './style.scss';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
@@ -34,7 +37,7 @@ class WSView extends React.Component {
               <div className="boxes">
                 <div className="box"> NM </div>
                 <div className="box notification bgGreen"> CX </div>
-                <div className="box notification bgOrange"> K운 </div> 
+                <div className="box notification bgOrange"> K운 </div>
                 <div className="box bgDarkYellow"> 팀즈 </div>
                 <div className="box bgRoyalBlue"> VD </div>
 
@@ -46,7 +49,7 @@ class WSView extends React.Component {
 
           <div class="main">
             <div className="col left">
-                <h2>Mentions Me <strong> 3 </strong></h2>
+              <h2>Mentions Me <strong> 3 </strong></h2>
               <List className="mention_list">
                 <ListItem alignItems="flex-start" divider="true" className="active">
                   <ListItemAvatar>
@@ -96,22 +99,42 @@ class WSView extends React.Component {
                     }
                   />
                 </ListItem>
-                
+
               </List>
             </div>
 
             <div className="col right">
-                <div class="row top_sec">
-                    <Button className="WorkspaceButton" >
-                       Workspace         
-                      <AddIcon />         
-                  </Button>
-                  <div className="rightSpace">
-                    <IconButton aria-label="list toggle"> <ListIcon /> </IconButton>
-                    <span class="divider"></span> 
-                    <IconButton aria-label="settings"> <SettingsIcon />  </IconButton>
+              <div className="row top_sec">
+                <Button className="WorkspaceButton" >
+                  Workspace
+                      <AddIcon />
+                </Button>
+                <div className="rightSpace">
+                  <IconButton aria-label="list toggle"> <ListIcon /> </IconButton>
+                  <span class="divider"></span>
+                  <IconButton aria-label="settings"> <SettingsIcon />  </IconButton>
+                </div>
+              </div>
+
+              <div className="cardList">
+                <div className="card">
+                  <div className="workspaceName">
+                    Next MCS T/F
+                      </div>
+                  <div className="channelList">
+                    <div className="channel">
+                      <div className="content">
+                        <h4>General <StarIcon /> </h4>
+                        <Badge badgeContent={4} className="badge" ></Badge>
+                      </div>
+                      <div className="details">
+                        <p>Thank you.</p>
+                        <span>12:34 PM</span>
+                      </div>
+                    </div>
                   </div>
                 </div>
+              </div>
             </div>
           </div>
 

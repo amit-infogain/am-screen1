@@ -193,6 +193,66 @@ $color1 : #4a4444;
 
                 margin-left: auto;
               }
+
+              .card {
+                  display: flex;
+                  border-radius: 4px;
+                  background-color: #fff;
+                  box-shadow: 0px 1px 3px 0 rgba(0, 0, 0, 0.04);
+                    .workspaceName {
+                      background-color: grey;
+                      color: white;
+                      font-size: 1.43rem;
+                      width: 140px;
+                      padding: 0 23px;
+                      vertical-align: middle;
+                      display: flex;
+                      align-items: center;
+                      border-top-left-radius: 4px;
+                      border-bottom-left-radius: 4px;
+                      border-top-right-radius: 20px;
+                  }
+                  .channelList{
+                    display: flex;
+                    flex: 1;
+                      .channel {
+                      flex-basis: 160px;
+                      .content {
+                        display: flex;
+                        align-items: center;
+                        h4{
+                          color:#363030;
+                          font-size: 1.14rem;
+                          margin: 0;
+                          flex: 1;
+                          line-height: 1.28rem;
+                        }
+                        span{
+                          span{
+                            position: relative;
+                            transform: none;
+                          }
+                        }
+                    }
+                    .details {
+                        display: flex;
+                        align-items: center;
+                        p{
+                          color:  #858180;
+                          margin: 0;
+                          flex: 1;
+                          line-height: 1.21rem;
+                          font-size: 1.07rem;
+                        }
+                        span{
+                          font-size: 0.85rem; 
+                          color: #858180;
+                          line-height: 0.85rem;
+                        }
+                    }
+                   }
+                  }
+              }
             }
         }
 
