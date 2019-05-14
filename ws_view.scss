@@ -33,6 +33,19 @@ $color1 : #4a4444;
         overflow-y: hidden;
       }
 
+      .green{
+        background-color: #139f6a !important;
+      }
+      .orange{
+        background-color: #e35a29 !important;
+      }
+      .darkYellow{
+        background-color: #eaa846 !important;
+      }
+      .royalBlue{
+        background-color: #7441ee !important;
+      }
+
 
 // ============== WSView PAGE ====================
 #sm_wsviewpage{
@@ -65,6 +78,7 @@ $color1 : #4a4444;
             .boxes{
                 margin-top: 45px;
               .box{ 
+                position: relative;
                 width: 48px;
                 font-size: 1.28rem;
                 color: #fff;
@@ -76,8 +90,16 @@ $color1 : #4a4444;
                 margin-bottom: 20px;
                 &.notification{
                   ::after{
-                    content: "";
-                  }
+                      content: "";
+                      background-color: white;
+                      position: absolute;
+                      height: 12px;
+                      width: 12px;
+                      border-radius: 50%;
+                      left: -3px;
+                      top: -2px;
+                      border: 2px solid #39372d;
+                    }
                 }
               }
             }

@@ -28,10 +28,10 @@ class WSView extends React.Component {
             <div className="midContent">
               <div className="boxes">
                 <div className="box"> NM </div>
-                <div className="box notification"> CX </div>
-                <div className="box"> K운 </div>
-                <div className="box"> 팀즈 </div>
-                <div className="box"> VD </div>
+                <div className="box notification green"> CX </div>
+                <div className="box notification orange"> K운 </div> 
+                <div className="box darkYellow"> 팀즈 </div>
+                <div className="box royalBlue"> VD </div>
 
               </div>
             </div>
