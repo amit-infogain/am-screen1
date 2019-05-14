@@ -43,13 +43,36 @@ $color1 : #4a4444;
           background-color: #39372d;
           padding: 20px 0;
           display: flex;
-          justify-content: center;
+          flex-direction: column;
+          align-items: center;
+
 
           .avatarBottom{
             position: fixed;  
             bottom: 20px; 
             width: 36px;
             height: 36px;         
+          }
+
+          .midContent{
+            .boxes{
+                margin-top: 45px;
+              .box{ 
+                @include flex_all_center();             
+                width: 48px;
+                font-size: 1.28rem;
+                color: #fff;
+                height: 48px;
+                border-radius: 12px;
+                background-color: #26b8cb;
+                margin-bottom: 20px;
+                &.notification{
+                  ::after{
+                    content: "";
+                  }
+                }
+              }
+            }
           }
 
         }
@@ -72,9 +95,64 @@ $color1 : #4a4444;
 
                 }
                 .mention_list{
-                  .end{  
-                    margin: 0;    
-                    text-align: right;
+                  &>li{
+                    padding-top: 20px; 
+                    padding-bottom: 20px;  
+                    padding: 20px 28px;
+                      transition: all .2s ease-in;
+                      &:hover{
+                          background-color: rgba(239, 238, 229, 0.4);
+                      }  
+                  }
+                  .avatarImg{
+                    width: 24px;
+                    height: 24px;
+                    border: solid 1px rgba(54, 48, 48, 0.2);
+                    border-radius: 50%;
+                    margin: 0;
+                  }
+                  .content{
+                      h4{        
+                      margin: 0;                
+                      margin-top: 4px;
+                      display: inline-block;
+                      font-size: 1rem;
+                      color: #363030;
+                      line-height: 1.07rem;
+                      font-weight: 500;
+                      margin-right: 5px;
+                    }
+                      span{
+                      color: #858180;
+                      font-size: 0.85rem;
+                      line-height: 1.07;
+                    }
+                      p{
+                       font-size: 1.07rem;
+                      color: #4a4444;
+                      line-height: 1.42rem;
+                      margin: 5px 0;
+                      }
+                      button{
+                      font-size: 1.07rem;
+                      color: #305cb8;
+                      line-height: 1.42rem;
+                      }
+                    .end{  
+                      margin: 0;    
+                      text-align: right;
+                      color: #eaa846;
+                      font-size: 0.85rem;
+                      display: flex;
+                      align-items: center;
+                      justify-content: flex-end;
+                      .divider{
+                        background-color: #f2f1f0;
+                        width: 1px;
+                        height: 12px;
+                        margin: 0 5px;
+                      }
+                    }
                   }
                   li{
                     border-color: #e8e7e6;

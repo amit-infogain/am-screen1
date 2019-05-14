@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
+
+
 // ============== GLOBAL VARIABLES  ==========
 $bg_light : #f8f8f0;
 $color1 : #4a4444;
@@ -32,6 +35,8 @@ html{
 }
 html, body, #root{
   height: 100%;
+  font-family: 'Nanum Gothic', sans-serif;
+
 }
 body{
   margin: 0;
@@ -53,7 +58,7 @@ body{
     max-width: 100%;
 }
 h1, p {
-  font-family: Lato;
+font-family: 'Nanum Gothic', sans-serif;
 }
 
 .img-responsive{
