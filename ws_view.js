@@ -3,6 +3,9 @@ import { render } from 'react-dom';
 import Button from '@material-ui/core/Button';
 import AddIcon from '@material-ui/icons/Add';
 import HomeIcon from '@material-ui/icons/Home';
+import SettingsIcon from '@material-ui/icons/Settings';
+import ListIcon from '@material-ui/icons/List';
+
 import Avatar from '@material-ui/core/Avatar';
 import './ws_view.scss';
 import List from '@material-ui/core/List';
@@ -11,6 +14,8 @@ import ListItemText from '@material-ui/core/ListItemText';
 import ListItemAvatar from '@material-ui/core/ListItemAvatar';
 import Avatar from '@material-ui/core/Avatar';
 import Link from '@material-ui/core/Link';
+import IconButton from '@material-ui/core/IconButton';
+
 
 
 class WSView extends React.Component {
@@ -28,10 +33,10 @@ class WSView extends React.Component {
             <div className="midContent">
               <div className="boxes">
                 <div className="box"> NM </div>
-                <div className="box notification green"> CX </div>
-                <div className="box notification orange"> K운 </div> 
-                <div className="box darkYellow"> 팀즈 </div>
-                <div className="box royalBlue"> VD </div>
+                <div className="box notification bgGreen"> CX </div>
+                <div className="box notification bgOrange"> K운 </div> 
+                <div className="box bgDarkYellow"> 팀즈 </div>
+                <div className="box bgRoyalBlue"> VD </div>
 
               </div>
             </div>
@@ -43,7 +48,7 @@ class WSView extends React.Component {
             <div className="col left">
                 <h2>Mentions Me <strong> 3 </strong></h2>
               <List className="mention_list">
-                <ListItem alignItems="flex-start" divider="true">
+                <ListItem alignItems="flex-start" divider="true" className="active">
                   <ListItemAvatar>
                     <Avatar className="avatarImg" alt="Remy Sharp" src="https://cdn1.iconfinder.com/data/icons/user-pictures/101/malecostume-512.png" />
                   </ListItemAvatar>
@@ -53,7 +58,7 @@ class WSView extends React.Component {
                         <div className="content">
                           <h4>Mulien Joe</h4><span>12:34 PM</span>
                           <p> <Link component="button" variant="body2"> @Karen </Link> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard.</p>
-                          <div className="end">PM+Designer <span class="divider"></span> 팀즈PJT</div>
+                          <div className="end darkYellow">PM+Designer <span class="divider"></span> 팀즈PJT</div>
                         </div>
                       </React.Fragment>
                     }
@@ -96,7 +101,17 @@ class WSView extends React.Component {
             </div>
 
             <div className="col right">
-
+                <div class="row top_sec">
+                    <Button className="WorkspaceButton" >
+                       Workspace         
+                      <AddIcon />         
+                  </Button>
+                  <div className="rightSpace">
+                    <IconButton aria-label="list toggle"> <ListIcon /> </IconButton>
+                    <span class="divider"></span> 
+                    <IconButton aria-label="settings"> <SettingsIcon />  </IconButton>
+                  </div>
+                </div>
             </div>
           </div>
 

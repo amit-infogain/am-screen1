@@ -33,20 +33,6 @@ $color1 : #4a4444;
         overflow-y: hidden;
       }
 
-      .green{
-        background-color: #139f6a !important;
-      }
-      .orange{
-        background-color: #e35a29 !important;
-      }
-      .darkYellow{
-        background-color: #eaa846 !important;
-      }
-      .royalBlue{
-        background-color: #7441ee !important;
-      }
-
-
 // ============== WSView PAGE ====================
 #sm_wsviewpage{
   height: 100%;
@@ -89,7 +75,7 @@ $color1 : #4a4444;
                 background-color: #26b8cb;
                 margin-bottom: 20px;
                 &.notification{
-                  ::after{
+                  &::after{
                       content: "";
                       background-color: white;
                       position: absolute;
@@ -123,6 +109,9 @@ $color1 : #4a4444;
                       &:hover{
                           background-color: rgba(239, 238, 229, 0.4);
                       }  
+                      &.active{
+                        background-color: rgba(136, 173, 244, 0.1);
+                      }
                   }
                   .avatarImg{
                     width: 24px;
@@ -161,7 +150,7 @@ $color1 : #4a4444;
                     .end{  
                       margin: 0;    
                       text-align: right;
-                      color: #eaa846;
+                      color: #26b8cb;
                       font-size: 0.85rem;
                       display: flex;
                       align-items: center;
@@ -182,7 +171,28 @@ $color1 : #4a4444;
               }
 
             .right{
+              padding: 30px 40px;
               background-color: #f8f8f0;
+              .WorkspaceButton{
+                text-transform: none;
+                font-size: 1.57rem;
+                font-weight: normal;
+                color: #363030;                
+              }
+              .rightSpace{
+                button{
+                  color: #4a4444;
+                }
+                .divider{
+                  background-color: #b5b3b3;
+                  height: 16px;
+                  width: 1px;
+                  display: inline-block;
+                  vertical-align: middle;
+                }
+
+                margin-left: auto;
+              }
             }
         }
 
