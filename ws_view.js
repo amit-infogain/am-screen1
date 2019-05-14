@@ -41,9 +41,7 @@ class WSView extends React.Component {
 
           <div class="main">
             <div className="col left">
-              <div className="header">
-                <h2>Mentions Me 3</h2>
-              </div>
+                <h2>Mentions Me <strong> 3 </strong></h2>
               <List className="mention_list">
                 <ListItem alignItems="flex-start" divider="true">
                   <ListItemAvatar>
@@ -93,6 +91,7 @@ class WSView extends React.Component {
                     }
                   />
                 </ListItem>
+                
               </List>
             </div>
 

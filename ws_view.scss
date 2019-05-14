@@ -4,15 +4,9 @@ $color1 : #4a4444;
 
 // ================ MIXINS ======================
 @mixin flex_all_center{
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
 }
 @mixin btn_primary {
           height: 40px;
@@ -25,6 +19,19 @@ $color1 : #4a4444;
                 background-color: #858180;
             }
           }
+
+      h2 {
+        padding: 15px 28px;
+        border-bottom: 1px solid #e8e7e6;
+        margin: 0;
+        font-size: 1.57rem;
+        line-height: 2.71rem;
+        font-weight: normal;
+      }
+
+      body{
+        overflow-y: hidden;
+      }
 
 
 // ============== WSView PAGE ====================
@@ -58,10 +65,11 @@ $color1 : #4a4444;
             .boxes{
                 margin-top: 45px;
               .box{ 
-                @include flex_all_center();             
                 width: 48px;
                 font-size: 1.28rem;
                 color: #fff;
+                text-align: center;
+                line-height: 48px;
                 height: 48px;
                 border-radius: 12px;
                 background-color: #26b8cb;
@@ -86,18 +94,8 @@ $color1 : #4a4444;
               flex-basis: 420px !important;
               flex-grow: 0;
               background-color: #fdfdfb;
-                .header{
-                      padding: 0 28px;
-                      height: 68px;
-                      display: flex;
-                      align-items: center;
-                      border-bottom: 1px solid #e8e7e6;    
-
-                }
                 .mention_list{
                   &>li{
-                    padding-top: 20px; 
-                    padding-bottom: 20px;  
                     padding: 20px 28px;
                       transition: all .2s ease-in;
                       &:hover{
