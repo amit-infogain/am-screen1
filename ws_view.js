@@ -124,8 +124,9 @@ class WSView extends React.Component {
                   <div className="channelList">
                     <div className="channel">
                       <div className="content">
-                        <h4>General <StarIcon /> </h4>
-                        <Badge badgeContent={4} className="badge" ></Badge>
+                        <h4>General </h4>
+                         <StarIcon className="starIcon" />
+                        <Badge badgeContent={444} className="badge" max={99} ></Badge>
                       </div>
                       <div className="details">
                         <p>Thank you.</p>

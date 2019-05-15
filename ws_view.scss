@@ -200,6 +200,7 @@ $color1 : #4a4444;
                   background-color: #fff;
                   box-shadow: 0px 1px 3px 0 rgba(0, 0, 0, 0.04);
                     .workspaceName {
+                      text-align: center;
                       background-color: grey;
                       color: white;
                       font-size: 1.43rem;
@@ -215,20 +216,34 @@ $color1 : #4a4444;
                   .channelList{
                     display: flex;
                     flex: 1;
+                    padding: 28px;
                       .channel {
                       flex-basis: 160px;
                       .content {
+                        margin-bottom: 8px;
                         display: flex;
                         align-items: center;
                         h4{
                           color:#363030;
                           font-size: 1.14rem;
                           margin: 0;
-                          flex: 1;
                           line-height: 1.28rem;
                         }
-                        span{
+                        .starIcon{
+                          font-size: 16px;
+                          color: #4a4444; 
+                          margin-left: 5px;
+                        }
+                        .badge{
+                          margin-left: auto;
                           span{
+                            padding: 0 10px; 
+                            min-width: 28px;
+                            font-size: 0.85rem;
+                            line-height: 2.71rem;
+                            font-weight: normal;
+                            background-color: rgba(74, 68, 68, 0.9);
+                            color: #fff;
                             position: relative;
                             transform: none;
                           }
