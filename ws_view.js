@@ -243,7 +243,7 @@ class WSView extends React.Component {
                         <div className="content">
                           <h4>General </h4>
                           <StarIcon className="starIcon" />
-                          <Badge badgeContent={1} className="badge" max={99} ></Badge>
+                          <Badge badgeContent={999} className="badge" max={99} ></Badge>
                         </div>
                         <div className="details">
                           <p>Thank you.</p>
