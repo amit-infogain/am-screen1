@@ -40,10 +40,6 @@ $color1 : #4a4444;
     &>.row{
           width: 100%;
           height: 100%;
-       @media (max-width: 1200px){
-         width: 80%;
-        }  
-
         .sidebar{
           width: 80px;
           background-color: #39372d;
@@ -195,13 +191,15 @@ $color1 : #4a4444;
               }
 
               .card {
+                  margin-bottom: 12px;
                   display: flex;
                   border-radius: 4px;
                   background-color: #fff;
                   box-shadow: 0px 1px 3px 0 rgba(0, 0, 0, 0.04);
                     .workspaceName {
+                      font-weight: 600;
                       text-align: center;
-                      background-color: grey;
+                      background-color: #26b8cb;
                       color: white;
                       font-size: 1.43rem;
                       width: 140px;
@@ -214,11 +212,15 @@ $color1 : #4a4444;
                       border-top-right-radius: 20px;
                   }
                   .channelList{
+                    padding-bottom: 20px;
                     display: flex;
                     flex: 1;
-                    padding: 28px;
+                    padding: 28px 28px 4px 28px;
+                    flex-wrap: wrap;
                       .channel {
-                      flex-basis: 160px;
+                        margin-bottom: 24px;
+                        width: 29%;
+                        margin-right: 4%;
                       .content {
                         margin-bottom: 8px;
                         display: flex;
@@ -253,6 +255,9 @@ $color1 : #4a4444;
                         display: flex;
                         align-items: center;
                         p{
+                          text-overflow: ellipsis;
+                          overflow: hidden;
+                          white-space: nowrap;
                           color:  #858180;
                           margin: 0;
                           flex: 1;
