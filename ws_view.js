@@ -51,6 +51,9 @@ class WSView extends React.Component {
           <div class="main">
             <div className="col left">
               <h2>Mentions Me <strong> 3 </strong></h2>
+
+              <Scrollbars>
+              <div class="mentionsWrapper">
               <List className="mention_list">
                 <ListItem alignItems="flex-start" divider="true" className="active">
                   <ListItemAvatar>
@@ -100,8 +103,58 @@ class WSView extends React.Component {
                     }
                   />
                 </ListItem>
+                <ListItem alignItems="flex-start" divider="true" >
+                  <ListItemAvatar>
+                    <Avatar className="avatarImg" alt="Remy Sharp" src="https://cdn1.iconfinder.com/data/icons/user-pictures/101/malecostume-512.png" />
+                  </ListItemAvatar>
+                  <ListItemText
+                    primary={
+                      <React.Fragment>
+                        <div className="content">
+                          <h4>Mulien Joe</h4><span>12:34 PM</span>
+                          <p> <Link component="button" variant="body2"> @Karen </Link> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard.</p>
+                          <div className="end darkYellow">PM+Designer <span class="divider"></span> 팀즈PJT</div>
+                        </div>
+                      </React.Fragment>
+                    }
+                  />
+                </ListItem>
+                <ListItem alignItems="flex-start" divider="true">
+                  <ListItemAvatar>
+                    <Avatar className="avatarImg" alt="Remy Sharp" src="https://cdn1.iconfinder.com/data/icons/user-pictures/101/malecostume-512.png" />
+                  </ListItemAvatar>
+                  <ListItemText
+                    primary={
+                      <React.Fragment>
+                        <div className="content">
+                          <h4>Mulien Joe</h4><span>9:05 AM</span>
+                          <p> <Link component="button" variant="body2"> @Karen </Link> Please check your e-mail.</p>
+                          <div className="end">PM+Designer <span class="divider"></span> 팀즈PJT</div>
+                        </div>
+                      </React.Fragment>
+                    }
+                  />
+                </ListItem>
+                <ListItem alignItems="flex-start" divider="true">
+                  <ListItemAvatar>
+                    <Avatar className="avatarImg" alt="Remy Sharp" src="https://cdn1.iconfinder.com/data/icons/user-pictures/101/malecostume-512.png" />
+                  </ListItemAvatar>
+                  <ListItemText
+                    primary={
+                      <React.Fragment>
+                        <div className="content">
+                          <h4>Mulien Joe</h4><span>9:03 AM</span>
+                          <p> <Link component="button" variant="body2"> @Karen </Link> Please check your e-mail.</p>
+                          <div className="end">PM+Designer <span class="divider"></span> 팀즈PJT</div>
+                        </div>
+                      </React.Fragment>
+                    }
+                  />
+                </ListItem>
 
               </List>
+              </div>
+              </Scrollbars>
             </div>
 
             <div className="col right">
@@ -117,7 +170,7 @@ class WSView extends React.Component {
                 </div>
               </div>
 
-            <Scrollbars>
+            <Scrollbars autoHide autoHideDuration={200} >
               <div className="cardList">
               
                 <div className="card">

@@ -190,6 +190,9 @@ $color1 : #4a4444;
                 margin-left: auto;
               }
 
+              .cardList{
+                padding-bottom: 20px;
+              }
               .card {
                   margin-bottom: 12px;
                   display: flex;
@@ -212,7 +215,6 @@ $color1 : #4a4444;
                       border-top-right-radius: 20px;
                   }
                   .channelList{
-                    padding-bottom: 20px;
                     display: flex;
                     flex: 1;
                     padding: 28px 28px 4px 28px;
