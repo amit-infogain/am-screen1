@@ -174,7 +174,7 @@ class WSView extends React.Component {
                 <div className="cardList">
 
                   <div className="card">
-                    <div className="workspaceName">
+                    <div className="workspaceName ">
                       Next MCS T/F
                       </div>
                     <div className="channelList">
@@ -234,7 +234,7 @@ class WSView extends React.Component {
                   </div>
 
                   <div className="card">
-                    <div className="workspaceName">
+                    <div className="workspaceName bgGreen">
                       Next MCS T/F
                       </div>
                     <div className="channelList">
@@ -294,7 +294,7 @@ class WSView extends React.Component {
                   </div>
 
                   <div className="card">
-                    <div className="workspaceName">
+                    <div className="workspaceName bgOrange">
                       Next MCS T/F
                       </div>
                     <div className="channelList">
@@ -354,7 +354,7 @@ class WSView extends React.Component {
                   </div>
 
                   <div className="card">
-                    <div className="workspaceName">
+                    <div className="workspaceName bgDarkYellow">
                       Next MCS T/F
                       </div>
                     <div className="channelList">
@@ -414,7 +414,7 @@ class WSView extends React.Component {
                   </div>
 
                   <div className="card">
-                    <div className="workspaceName">
+                    <div className="workspaceName bgRoyalBlue">
                       Next MCS T/F
                       </div>
                     <div className="channelList">
