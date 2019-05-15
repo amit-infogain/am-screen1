@@ -52,116 +52,116 @@ class WSView extends React.Component {
             <div className="col left">
               <h2>Mentions Me <strong> 3 </strong></h2>
 
-              <Scrollbars>
               <div class="mentionsWrapper">
-              <List className="mention_list">
-                <ListItem alignItems="flex-start" divider="true" className="active">
-                  <ListItemAvatar>
-                    <Avatar className="avatarImg" alt="Remy Sharp" src="https://cdn1.iconfinder.com/data/icons/user-pictures/101/malecostume-512.png" />
-                  </ListItemAvatar>
-                  <ListItemText
-                    primary={
-                      <React.Fragment>
-                        <div className="content">
-                          <h4>Mulien Joe</h4><span>12:34 PM</span>
-                          <p> <Link component="button" variant="body2"> @Karen </Link> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard.</p>
-                          <div className="end darkYellow">PM+Designer <span class="divider"></span> 팀즈PJT</div>
-                        </div>
-                      </React.Fragment>
-                    }
-                  />
-                </ListItem>
-                <ListItem alignItems="flex-start" divider="true">
-                  <ListItemAvatar>
-                    <Avatar className="avatarImg" alt="Remy Sharp" src="https://cdn1.iconfinder.com/data/icons/user-pictures/101/malecostume-512.png" />
-                  </ListItemAvatar>
-                  <ListItemText
-                    primary={
-                      <React.Fragment>
-                        <div className="content">
-                          <h4>Mulien Joe</h4><span>9:05 AM</span>
-                          <p> <Link component="button" variant="body2"> @Karen </Link> Please check your e-mail.</p>
-                          <div className="end">PM+Designer <span class="divider"></span> 팀즈PJT</div>
-                        </div>
-                      </React.Fragment>
-                    }
-                  />
-                </ListItem>
-                <ListItem alignItems="flex-start" divider="true">
-                  <ListItemAvatar>
-                    <Avatar className="avatarImg" alt="Remy Sharp" src="https://cdn1.iconfinder.com/data/icons/user-pictures/101/malecostume-512.png" />
-                  </ListItemAvatar>
-                  <ListItemText
-                    primary={
-                      <React.Fragment>
-                        <div className="content">
-                          <h4>Mulien Joe</h4><span>9:03 AM</span>
-                          <p> <Link component="button" variant="body2"> @Karen </Link> Please check your e-mail.</p>
-                          <div className="end">PM+Designer <span class="divider"></span> 팀즈PJT</div>
-                        </div>
-                      </React.Fragment>
-                    }
-                  />
-                </ListItem>
-                <ListItem alignItems="flex-start" divider="true" >
-                  <ListItemAvatar>
-                    <Avatar className="avatarImg" alt="Remy Sharp" src="https://cdn1.iconfinder.com/data/icons/user-pictures/101/malecostume-512.png" />
-                  </ListItemAvatar>
-                  <ListItemText
-                    primary={
-                      <React.Fragment>
-                        <div className="content">
-                          <h4>Mulien Joe</h4><span>12:34 PM</span>
-                          <p> <Link component="button" variant="body2"> @Karen </Link> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard.</p>
-                          <div className="end darkYellow">PM+Designer <span class="divider"></span> 팀즈PJT</div>
-                        </div>
-                      </React.Fragment>
-                    }
-                  />
-                </ListItem>
-                <ListItem alignItems="flex-start" divider="true">
-                  <ListItemAvatar>
-                    <Avatar className="avatarImg" alt="Remy Sharp" src="https://cdn1.iconfinder.com/data/icons/user-pictures/101/malecostume-512.png" />
-                  </ListItemAvatar>
-                  <ListItemText
-                    primary={
-                      <React.Fragment>
-                        <div className="content">
-                          <h4>Mulien Joe</h4><span>9:05 AM</span>
-                          <p> <Link component="button" variant="body2"> @Karen </Link> Please check your e-mail.</p>
-                          <div className="end">PM+Designer <span class="divider"></span> 팀즈PJT</div>
-                        </div>
-                      </React.Fragment>
-                    }
-                  />
-                </ListItem>
-                <ListItem alignItems="flex-start" divider="true">
-                  <ListItemAvatar>
-                    <Avatar className="avatarImg" alt="Remy Sharp" src="https://cdn1.iconfinder.com/data/icons/user-pictures/101/malecostume-512.png" />
-                  </ListItemAvatar>
-                  <ListItemText
-                    primary={
-                      <React.Fragment>
-                        <div className="content">
-                          <h4>Mulien Joe</h4><span>9:03 AM</span>
-                          <p> <Link component="button" variant="body2"> @Karen </Link> Please check your e-mail.</p>
-                          <div className="end">PM+Designer <span class="divider"></span> 팀즈PJT</div>
-                        </div>
-                      </React.Fragment>
-                    }
-                  />
-                </ListItem>
+              <Scrollbars autoHide autoHideDuration={200} >
+                  <List className="mention_list">
+                    <ListItem alignItems="flex-start" divider="true" className="active">
+                      <ListItemAvatar>
+                        <Avatar className="avatarImg" alt="Remy Sharp" src="https://cdn1.iconfinder.com/data/icons/user-pictures/101/malecostume-512.png" />
+                      </ListItemAvatar>
+                      <ListItemText
+                        primary={
+                          <React.Fragment>
+                            <div className="content">
+                              <h4>Mulien Joe</h4><span>12:34 PM</span>
+                              <p> <Link component="button" variant="body2"> @Karen </Link> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard.</p>
+                              <div className="end darkYellow">PM+Designer <span class="divider"></span> 팀즈PJT</div>
+                            </div>
+                          </React.Fragment>
+                        }
+                      />
+                    </ListItem>
+                    <ListItem alignItems="flex-start" divider="true">
+                      <ListItemAvatar>
+                        <Avatar className="avatarImg" alt="Remy Sharp" src="https://cdn1.iconfinder.com/data/icons/user-pictures/101/malecostume-512.png" />
+                      </ListItemAvatar>
+                      <ListItemText
+                        primary={
+                          <React.Fragment>
+                            <div className="content">
+                              <h4>Mulien Joe</h4><span>9:05 AM</span>
+                              <p> <Link component="button" variant="body2"> @Karen </Link> Please check your e-mail.</p>
+                              <div className="end">PM+Designer <span class="divider"></span> 팀즈PJT</div>
+                            </div>
+                          </React.Fragment>
+                        }
+                      />
+                    </ListItem>
+                    <ListItem alignItems="flex-start" divider="true">
+                      <ListItemAvatar>
+                        <Avatar className="avatarImg" alt="Remy Sharp" src="https://cdn1.iconfinder.com/data/icons/user-pictures/101/malecostume-512.png" />
+                      </ListItemAvatar>
+                      <ListItemText
+                        primary={
+                          <React.Fragment>
+                            <div className="content">
+                              <h4>Mulien Joe</h4><span>9:03 AM</span>
+                              <p> <Link component="button" variant="body2"> @Karen </Link> Please check your e-mail.</p>
+                              <div className="end">PM+Designer <span class="divider"></span> 팀즈PJT</div>
+                            </div>
+                          </React.Fragment>
+                        }
+                      />
+                    </ListItem>
+                    <ListItem alignItems="flex-start" divider="true" >
+                      <ListItemAvatar>
+                        <Avatar className="avatarImg" alt="Remy Sharp" src="https://cdn1.iconfinder.com/data/icons/user-pictures/101/malecostume-512.png" />
+                      </ListItemAvatar>
+                      <ListItemText
+                        primary={
+                          <React.Fragment>
+                            <div className="content">
+                              <h4>Mulien Joe</h4><span>12:34 PM</span>
+                              <p> <Link component="button" variant="body2"> @Karen </Link> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard.</p>
+                              <div className="end darkYellow">PM+Designer <span class="divider"></span> 팀즈PJT</div>
+                            </div>
+                          </React.Fragment>
+                        }
+                      />
+                    </ListItem>
+                    <ListItem alignItems="flex-start" divider="true">
+                      <ListItemAvatar>
+                        <Avatar className="avatarImg" alt="Remy Sharp" src="https://cdn1.iconfinder.com/data/icons/user-pictures/101/malecostume-512.png" />
+                      </ListItemAvatar>
+                      <ListItemText
+                        primary={
+                          <React.Fragment>
+                            <div className="content">
+                              <h4>Mulien Joe</h4><span>9:05 AM</span>
+                              <p> <Link component="button" variant="body2"> @Karen </Link> Please check your e-mail.</p>
+                              <div className="end">PM+Designer <span class="divider"></span> 팀즈PJT</div>
+                            </div>
+                          </React.Fragment>
+                        }
+                      />
+                    </ListItem>
+                    <ListItem alignItems="flex-start" divider="true">
+                      <ListItemAvatar>
+                        <Avatar className="avatarImg" alt="Remy Sharp" src="https://cdn1.iconfinder.com/data/icons/user-pictures/101/malecostume-512.png" />
+                      </ListItemAvatar>
+                      <ListItemText
+                        primary={
+                          <React.Fragment>
+                            <div className="content">
+                              <h4>Mulien Joe</h4><span>9:03 AM</span>
+                              <p> <Link component="button" variant="body2"> @Karen </Link> Please check your e-mail.</p>
+                              <div className="end">PM+Designer <span class="divider"></span> 팀즈PJT</div>
+                            </div>
+                          </React.Fragment>
+                        }
+                      />
+                    </ListItem>
 
-              </List>
+                  </List>
+                </Scrollbars>
               </div>
-              </Scrollbars>
             </div>
 
             <div className="col right">
               <div className="row top_sec">
                 <Button className="WorkspaceButton" >
                   Workspace
-                      <AddIcon />
+                  <AddIcon />
                 </Button>
                 <div className="rightSpace">
                   <IconButton aria-label="list toggle"> <ListIcon /> </IconButton>
@@ -170,311 +170,311 @@ class WSView extends React.Component {
                 </div>
               </div>
 
-            <Scrollbars autoHide autoHideDuration={200} >
-              <div className="cardList">
-              
-                <div className="card">
-                  <div className="workspaceName">
-                    Next MCS T/F
-                      </div>
-                  <div className="channelList">
+              <Scrollbars autoHide autoHideDuration={200} >
+                <div className="cardList">
 
-                    <div className="channel">
-                      <div className="content">
-                        <h4>General </h4>
-                         <StarIcon className="starIcon" />
-                        <Badge badgeContent={1} className="badge" max={99} ></Badge>
+                  <div className="card">
+                    <div className="workspaceName">
+                      Next MCS T/F
                       </div>
-                      <div className="details">
-                        <p>Thank you.</p>
-                        <span>12:34 PM</span>
+                    <div className="channelList">
+
+                      <div className="channel">
+                        <div className="content">
+                          <h4>General </h4>
+                          <StarIcon className="starIcon" />
+                          <Badge badgeContent={1} className="badge" max={99} ></Badge>
+                        </div>
+                        <div className="details">
+                          <p>Thank you.</p>
+                          <span>12:34 PM</span>
+                        </div>
                       </div>
-                    </div>
-                    <div className="channel">
-                      <div className="content">
-                        <h4>PM+Designer </h4>
+                      <div className="channel">
+                        <div className="content">
+                          <h4>PM+Designer </h4>
+                        </div>
+                        <div className="details">
+                          <p>Please check your email</p>
+                          <span>12:34 PM</span>
+                        </div>
                       </div>
-                      <div className="details">
-                        <p>Please check your email</p>
-                        <span>12:34 PM</span>
+                      <div className="channel">
+                        <div className="content">
+                          <h4>Pair work </h4>
+                          <StarIcon className="starIcon" />
+                          <Badge badgeContent={10} className="badge" max={99} ></Badge>
+                        </div>
+                        <div className="details">
+                          <p>Please check your email</p>
+                          <span>12:34 PM</span>
+                        </div>
                       </div>
-                    </div>
-                    <div className="channel">
-                      <div className="content">
-                        <h4>Pair work </h4>
-                         <StarIcon className="starIcon" />
-                        <Badge badgeContent={10} className="badge" max={99} ></Badge>
+                      <div className="channel">
+                        <div className="content">
+                          <h4>Designers </h4>
+                        </div>
+                        <div className="details">
+                          <p>Lorem Ipsum is simply</p>
+                          <span>12:34 PM</span>
+                        </div>
                       </div>
-                      <div className="details">
-                        <p>Please check your email</p>
-                        <span>12:34 PM</span>
+                      <div className="channel">
+                        <div className="content">
+                          <h4>PM+Designer </h4>
+                        </div>
+                        <div className="details">
+                          <p>Lorem Ipsum is simply</p>
+                          <span>12:34 PM</span>
+                        </div>
                       </div>
-                    </div>
-                    <div className="channel">
-                      <div className="content">
-                        <h4>Designers </h4>
-                      </div>
-                      <div className="details">
-                        <p>Lorem Ipsum is simply</p>
-                        <span>12:34 PM</span>
-                      </div>
-                    </div>
-                    <div className="channel">
-                      <div className="content">
-                        <h4>PM+Designer </h4>
-                      </div>
-                      <div className="details">
-                        <p>Lorem Ipsum is simply</p>
-                        <span>12:34 PM</span>
-                      </div>
-                    </div>
 
 
+                    </div>
                   </div>
-                </div>
-                
-                <div className="card">
-                  <div className="workspaceName">
-                    Next MCS T/F
-                      </div>
-                  <div className="channelList">
 
-                    <div className="channel">
-                      <div className="content">
-                        <h4>General </h4>
-                         <StarIcon className="starIcon" />
-                        <Badge badgeContent={1} className="badge" max={99} ></Badge>
+                  <div className="card">
+                    <div className="workspaceName">
+                      Next MCS T/F
                       </div>
-                      <div className="details">
-                        <p>Thank you.</p>
-                        <span>12:34 PM</span>
+                    <div className="channelList">
+
+                      <div className="channel">
+                        <div className="content">
+                          <h4>General </h4>
+                          <StarIcon className="starIcon" />
+                          <Badge badgeContent={1} className="badge" max={99} ></Badge>
+                        </div>
+                        <div className="details">
+                          <p>Thank you.</p>
+                          <span>12:34 PM</span>
+                        </div>
                       </div>
-                    </div>
-                    <div className="channel">
-                      <div className="content">
-                        <h4>PM+Designer </h4>
+                      <div className="channel">
+                        <div className="content">
+                          <h4>PM+Designer </h4>
+                        </div>
+                        <div className="details">
+                          <p>Please check your email</p>
+                          <span>12:34 PM</span>
+                        </div>
                       </div>
-                      <div className="details">
-                        <p>Please check your email</p>
-                        <span>12:34 PM</span>
+                      <div className="channel">
+                        <div className="content">
+                          <h4>Pair work </h4>
+                          <StarIcon className="starIcon" />
+                          <Badge badgeContent={10} className="badge" max={99} ></Badge>
+                        </div>
+                        <div className="details">
+                          <p>Please check your email</p>
+                          <span>12:34 PM</span>
+                        </div>
                       </div>
-                    </div>
-                    <div className="channel">
-                      <div className="content">
-                        <h4>Pair work </h4>
-                         <StarIcon className="starIcon" />
-                        <Badge badgeContent={10} className="badge" max={99} ></Badge>
+                      <div className="channel">
+                        <div className="content">
+                          <h4>Designers </h4>
+                        </div>
+                        <div className="details">
+                          <p>Lorem Ipsum is simply</p>
+                          <span>12:34 PM</span>
+                        </div>
                       </div>
-                      <div className="details">
-                        <p>Please check your email</p>
-                        <span>12:34 PM</span>
+                      <div className="channel">
+                        <div className="content">
+                          <h4>PM+Designer </h4>
+                        </div>
+                        <div className="details">
+                          <p>Lorem Ipsum is simply</p>
+                          <span>12:34 PM</span>
+                        </div>
                       </div>
-                    </div>
-                    <div className="channel">
-                      <div className="content">
-                        <h4>Designers </h4>
-                      </div>
-                      <div className="details">
-                        <p>Lorem Ipsum is simply</p>
-                        <span>12:34 PM</span>
-                      </div>
-                    </div>
-                    <div className="channel">
-                      <div className="content">
-                        <h4>PM+Designer </h4>
-                      </div>
-                      <div className="details">
-                        <p>Lorem Ipsum is simply</p>
-                        <span>12:34 PM</span>
-                      </div>
-                    </div>
 
 
+                    </div>
                   </div>
-                </div>
 
-                <div className="card">
-                  <div className="workspaceName">
-                    Next MCS T/F
+                  <div className="card">
+                    <div className="workspaceName">
+                      Next MCS T/F
                       </div>
-                  <div className="channelList">
+                    <div className="channelList">
 
-                    <div className="channel">
-                      <div className="content">
-                        <h4>General </h4>
-                         <StarIcon className="starIcon" />
-                        <Badge badgeContent={1} className="badge" max={99} ></Badge>
+                      <div className="channel">
+                        <div className="content">
+                          <h4>General </h4>
+                          <StarIcon className="starIcon" />
+                          <Badge badgeContent={1} className="badge" max={99} ></Badge>
+                        </div>
+                        <div className="details">
+                          <p>Thank you.</p>
+                          <span>12:34 PM</span>
+                        </div>
                       </div>
-                      <div className="details">
-                        <p>Thank you.</p>
-                        <span>12:34 PM</span>
+                      <div className="channel">
+                        <div className="content">
+                          <h4>PM+Designer </h4>
+                        </div>
+                        <div className="details">
+                          <p>Please check your email</p>
+                          <span>12:34 PM</span>
+                        </div>
                       </div>
-                    </div>
-                    <div className="channel">
-                      <div className="content">
-                        <h4>PM+Designer </h4>
+                      <div className="channel">
+                        <div className="content">
+                          <h4>Pair work </h4>
+                          <StarIcon className="starIcon" />
+                          <Badge badgeContent={10} className="badge" max={99} ></Badge>
+                        </div>
+                        <div className="details">
+                          <p>Please check your email</p>
+                          <span>12:34 PM</span>
+                        </div>
                       </div>
-                      <div className="details">
-                        <p>Please check your email</p>
-                        <span>12:34 PM</span>
+                      <div className="channel">
+                        <div className="content">
+                          <h4>Designers </h4>
+                        </div>
+                        <div className="details">
+                          <p>Lorem Ipsum is simply</p>
+                          <span>12:34 PM</span>
+                        </div>
                       </div>
-                    </div>
-                    <div className="channel">
-                      <div className="content">
-                        <h4>Pair work </h4>
-                         <StarIcon className="starIcon" />
-                        <Badge badgeContent={10} className="badge" max={99} ></Badge>
+                      <div className="channel">
+                        <div className="content">
+                          <h4>PM+Designer </h4>
+                        </div>
+                        <div className="details">
+                          <p>Lorem Ipsum is simply</p>
+                          <span>12:34 PM</span>
+                        </div>
                       </div>
-                      <div className="details">
-                        <p>Please check your email</p>
-                        <span>12:34 PM</span>
-                      </div>
-                    </div>
-                    <div className="channel">
-                      <div className="content">
-                        <h4>Designers </h4>
-                      </div>
-                      <div className="details">
-                        <p>Lorem Ipsum is simply</p>
-                        <span>12:34 PM</span>
-                      </div>
-                    </div>
-                    <div className="channel">
-                      <div className="content">
-                        <h4>PM+Designer </h4>
-                      </div>
-                      <div className="details">
-                        <p>Lorem Ipsum is simply</p>
-                        <span>12:34 PM</span>
-                      </div>
-                    </div>
 
 
+                    </div>
                   </div>
-                </div>
 
-                <div className="card">
-                  <div className="workspaceName">
-                    Next MCS T/F
+                  <div className="card">
+                    <div className="workspaceName">
+                      Next MCS T/F
                       </div>
-                  <div className="channelList">
+                    <div className="channelList">
 
-                    <div className="channel">
-                      <div className="content">
-                        <h4>General </h4>
-                         <StarIcon className="starIcon" />
-                        <Badge badgeContent={1} className="badge" max={99} ></Badge>
+                      <div className="channel">
+                        <div className="content">
+                          <h4>General </h4>
+                          <StarIcon className="starIcon" />
+                          <Badge badgeContent={1} className="badge" max={99} ></Badge>
+                        </div>
+                        <div className="details">
+                          <p>Thank you.</p>
+                          <span>12:34 PM</span>
+                        </div>
                       </div>
-                      <div className="details">
-                        <p>Thank you.</p>
-                        <span>12:34 PM</span>
+                      <div className="channel">
+                        <div className="content">
+                          <h4>PM+Designer </h4>
+                        </div>
+                        <div className="details">
+                          <p>Please check your email</p>
+                          <span>12:34 PM</span>
+                        </div>
                       </div>
-                    </div>
-                    <div className="channel">
-                      <div className="content">
-                        <h4>PM+Designer </h4>
+                      <div className="channel">
+                        <div className="content">
+                          <h4>Pair work </h4>
+                          <StarIcon className="starIcon" />
+                          <Badge badgeContent={10} className="badge" max={99} ></Badge>
+                        </div>
+                        <div className="details">
+                          <p>Please check your email</p>
+                          <span>12:34 PM</span>
+                        </div>
                       </div>
-                      <div className="details">
-                        <p>Please check your email</p>
-                        <span>12:34 PM</span>
+                      <div className="channel">
+                        <div className="content">
+                          <h4>Designers </h4>
+                        </div>
+                        <div className="details">
+                          <p>Lorem Ipsum is simply</p>
+                          <span>12:34 PM</span>
+                        </div>
                       </div>
-                    </div>
-                    <div className="channel">
-                      <div className="content">
-                        <h4>Pair work </h4>
-                         <StarIcon className="starIcon" />
-                        <Badge badgeContent={10} className="badge" max={99} ></Badge>
+                      <div className="channel">
+                        <div className="content">
+                          <h4>PM+Designer </h4>
+                        </div>
+                        <div className="details">
+                          <p>Lorem Ipsum is simply</p>
+                          <span>12:34 PM</span>
+                        </div>
                       </div>
-                      <div className="details">
-                        <p>Please check your email</p>
-                        <span>12:34 PM</span>
-                      </div>
-                    </div>
-                    <div className="channel">
-                      <div className="content">
-                        <h4>Designers </h4>
-                      </div>
-                      <div className="details">
-                        <p>Lorem Ipsum is simply</p>
-                        <span>12:34 PM</span>
-                      </div>
-                    </div>
-                    <div className="channel">
-                      <div className="content">
-                        <h4>PM+Designer </h4>
-                      </div>
-                      <div className="details">
-                        <p>Lorem Ipsum is simply</p>
-                        <span>12:34 PM</span>
-                      </div>
-                    </div>
 
 
+                    </div>
                   </div>
-                </div>
 
-                <div className="card">
-                  <div className="workspaceName">
-                    Next MCS T/F
+                  <div className="card">
+                    <div className="workspaceName">
+                      Next MCS T/F
                       </div>
-                  <div className="channelList">
+                    <div className="channelList">
 
-                    <div className="channel">
-                      <div className="content">
-                        <h4>General </h4>
-                         <StarIcon className="starIcon" />
-                        <Badge badgeContent={1} className="badge" max={99} ></Badge>
+                      <div className="channel">
+                        <div className="content">
+                          <h4>General </h4>
+                          <StarIcon className="starIcon" />
+                          <Badge badgeContent={1} className="badge" max={99} ></Badge>
+                        </div>
+                        <div className="details">
+                          <p>Thank you.</p>
+                          <span>12:34 PM</span>
+                        </div>
                       </div>
-                      <div className="details">
-                        <p>Thank you.</p>
-                        <span>12:34 PM</span>
+                      <div className="channel">
+                        <div className="content">
+                          <h4>PM+Designer </h4>
+                        </div>
+                        <div className="details">
+                          <p>Please check your email</p>
+                          <span>12:34 PM</span>
+                        </div>
                       </div>
-                    </div>
-                    <div className="channel">
-                      <div className="content">
-                        <h4>PM+Designer </h4>
+                      <div className="channel">
+                        <div className="content">
+                          <h4>Pair work </h4>
+                          <StarIcon className="starIcon" />
+                          <Badge badgeContent={10} className="badge" max={99} ></Badge>
+                        </div>
+                        <div className="details">
+                          <p>Please check your email</p>
+                          <span>12:34 PM</span>
+                        </div>
                       </div>
-                      <div className="details">
-                        <p>Please check your email</p>
-                        <span>12:34 PM</span>
+                      <div className="channel">
+                        <div className="content">
+                          <h4>Designers </h4>
+                        </div>
+                        <div className="details">
+                          <p>Lorem Ipsum is simply</p>
+                          <span>12:34 PM</span>
+                        </div>
                       </div>
-                    </div>
-                    <div className="channel">
-                      <div className="content">
-                        <h4>Pair work </h4>
-                         <StarIcon className="starIcon" />
-                        <Badge badgeContent={10} className="badge" max={99} ></Badge>
+                      <div className="channel">
+                        <div className="content">
+                          <h4>PM+Designer </h4>
+                        </div>
+                        <div className="details">
+                          <p>Lorem Ipsum is simply</p>
+                          <span>12:34 PM</span>
+                        </div>
                       </div>
-                      <div className="details">
-                        <p>Please check your email</p>
-                        <span>12:34 PM</span>
-                      </div>
-                    </div>
-                    <div className="channel">
-                      <div className="content">
-                        <h4>Designers </h4>
-                      </div>
-                      <div className="details">
-                        <p>Lorem Ipsum is simply</p>
-                        <span>12:34 PM</span>
-                      </div>
-                    </div>
-                    <div className="channel">
-                      <div className="content">
-                        <h4>PM+Designer </h4>
-                      </div>
-                      <div className="details">
-                        <p>Lorem Ipsum is simply</p>
-                        <span>12:34 PM</span>
-                      </div>
-                    </div>
 
 
+                    </div>
                   </div>
+
                 </div>
-                
-              </div>
-              </Scrollbars>              
+              </Scrollbars>
 
             </div>
           </div>
